@@ -13,5 +13,10 @@ int main() {
     tapePlayer.reverse();
     tapePlayer.record();
 
+    // using pointers it's possible to associate the implementation.
+    IPlayer *player;
+    player = &tapePlayer;
+    player->play();
+
     return 0;
 }
