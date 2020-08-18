@@ -5,15 +5,17 @@
 #ifndef ABSTRACT_01_INTERFACE_IPLAYER_H
 #define ABSTRACT_01_INTERFACE_IPLAYER_H
 
+#include <string>
+
 /*
  * Interface of Player
  */
 class IPlayer {
 public:
-    virtual void play() = 0;
-    virtual void stop() = 0;
-    virtual void pause() = 0;
-    virtual void reverse() = 0;
+    virtual std::string play() = 0;
+    virtual std::string stop() = 0;
+    virtual std::string pause() = 0;
+    virtual std::string reverse() = 0;
 };
 
 

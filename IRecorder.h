@@ -10,7 +10,7 @@
 
 class IRecorder: public IPlayer {
 public:
-    virtual void record() = 0;
+    virtual std::string record() = 0;
 };
 
 

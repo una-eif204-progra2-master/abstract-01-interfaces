@@ -4,22 +4,22 @@
 
 #include "TapePlayer.h"
 
-void TapePlayer::play() {
-
+std::string TapePlayer::play() {
+    return "play";
 }
 
-void TapePlayer::stop() {
-
+std::string TapePlayer::stop() {
+    return "stop";
 }
 
-void TapePlayer::pause() {
-
+std::string TapePlayer::pause() {
+    return "pause";
 }
 
-void TapePlayer::reverse() {
-
+std::string TapePlayer::reverse() {
+    return "reverse";
 }
 
-void TapePlayer::record() {
-
+std::string TapePlayer::record() {
+    return "record";
 }

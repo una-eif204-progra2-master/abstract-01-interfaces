@@ -10,11 +10,11 @@
 
 class TapePlayer: public IRecorder {
 public:
-    void play() override;
-    void stop() override;
-    void pause() override;
-    void reverse() override;
-    void record() override;
+    std::string play() override;
+    std::string stop() override;
+    std::string pause() override;
+    std::string reverse() override;
+    std::string record() override;
 };
 
 
